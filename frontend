@@ -1,3 +1,12 @@
 <div id="root"></div><script type="module" src="/src/main.tsx"></script>
 @import "tailwindcss";
 :root{font-family:Inter,system-ui,sans-serif;background:#071018;color:#e5edf5} body{margin:0;min-width:320px} button{cursor:pointer}
+{
+  "name": "ibvap-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite", "build":"tsc -b && vite build", "preview":"vite preview"},
+  "dependencies": {"@vitejs/plugin-react":"latest", "vite":"latest", "typescript":"latest", "react":"latest", "react-dom":"latest", "lucide-react":"latest", "tailwindcss":"latest", "@tailwindcss/vite":"latest"},
+  "devDependencies": {}
+}
